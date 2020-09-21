@@ -15,4 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/orderReq',('Pagecontroller@indexorderReq'));
+
 
