@@ -17,4 +17,5 @@ Route::get('/', function () {
 
 Route::get('/orderReq',('Pagecontroller@indexorderReq'));
 
+Route::post('/saveorderReq',('OrderReqcontroller@store'));
 
